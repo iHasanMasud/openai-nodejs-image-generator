@@ -20,7 +20,7 @@ const imageSize = size === "small" ? '256x256' : size === "medium" ? '512x512' :
 
         res.status(200).json({
             success: true,
-            data: imageUrl,
+            imageUrl: imageUrl,
 
         });
     } catch (error) {
